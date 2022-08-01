@@ -2,7 +2,7 @@
 README.md:
 	touch README.md
 
-	printf "#Title of project: my third repo\n\n" > README.MD
+	printf "# Title of project: my third repo\n\n" > README.MD
 	printf "Generated on: " >> README.md
 	date >> README.md
 	echo >> README.md	
